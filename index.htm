@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/_34130050-273b-4173-bc4e-79f806ca3b24-fotor-bg-remover-2023120323146.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>BuscaCEP</title>
+    </head>
+    <body>
+        <main>
+            <div>
+                <img src="./img/_34130050-273b-4173-bc4e-79f806ca3b24-fotor-bg-remover-2023120323146.png" alt="">
+                <h2>Digite seu CEP</h2>
+                <label for="cep">CEP</label>
+                <input type="text" name="" id="cep" placeholder="CEP">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" name="" id="logradouro" disabled>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="" id="bairro" disabled>
+                <label for="cidade">Cidade</label>
+                <input type="text" name="" id="cidade" disabled>
+                <label for="estado">Estado</label>
+                <input type="text" name="" id="estado" disabled>
+                <br>
+                <input type="submit" onclick="clickButton()" id="submit" value="Enviar">
+                <input type="reset" id="clean" onclick="cleanAll()" value="Limpar">
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
